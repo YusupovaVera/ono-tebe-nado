@@ -42,17 +42,17 @@
         </div>
         <div style="width: 240px; margin: auto">
           <div style="text-decoration: underline" class="contacts">
-            +9 999 555 5555
+            <a href="tel:+99995555555">+9 999 555 5555</a>
           </div>
           <div style="text-decoration: underline" class="contacts">
-            info@sobaka.ge
+            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           </div>
           <div class="contacts">наб. Принсенграхт 263-265,<br />Амстердам</div>
         </div>
       </div>
     </header>
     <main>
-      <section class="overlay">
+      <section class="cover">
         <div
           style="
             height: 757px;
@@ -84,7 +84,7 @@
               position: relative;
               line-height: 115%;
             "
-            class="title__main"
+            class="cover__title__main"
           >
             <div style="letter-spacing: 30px">О</div>
             <div style="letter-spacing: 60px">НО</div>
@@ -96,7 +96,7 @@
               position: relative;
               line-height: 100%;
             "
-            class="title__main"
+            class="cover__title__main"
           >
             <div style="letter-spacing: 28px">Т</div>
             <div style="letter-spacing: 30px">Е</div>
@@ -105,7 +105,7 @@
           </div>
           <div
             style="display: flow-root; padding-right: 58px; position: absolute"
-            class="title__main"
+            class="cover__title__main"
           >
             <div style="float: right; letter-spacing: 28px">О</div>
             <div style="float: right; letter-spacing: 28px">АД</div>
@@ -188,10 +188,10 @@
                 width: 328px;
                 background-image: url(images/card-lot-01.jpg);
               "
-              class="card__lot"
+              class="lots__card__lot"
             >
               <div style="padding: 48px 35px 48px 39px">
-                <h2 class="title__card__lot">
+                <h2 class="lots__title__card__lot">
                   ФИЛЬМ РЕЖИССЁРА, КОТОРЫЙ БРОСИЛ КИНОШКОЛУ
                 </h2>
               </div>
@@ -203,7 +203,7 @@
                   padding: 364px 35px 46px 39px;
                 "
               >
-                <p class="paragraph__card__lot">
+                <p class="lots__paragraph__card__lot">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
                   Андерсон?
@@ -218,10 +218,10 @@
                 margin-left: 15.5px;
                 margin-right: 15.5px;
               "
-              class="card__lot"
+              class="lots__card__lot"
             >
               <div style="padding: 48px 36px 396px 39px">
-                <h2 class="title__card__lot">
+                <h2 class="lots__title__card__lot">
                   КНИГА,ГДЕ ОПИСАН ОДИН СКУЧНЫЙ ДЕНЬ ИЗ ЖИЗНИ РЕКЛАМНОГО АГЕНТА
                 </h2>
               </div>
@@ -233,7 +233,7 @@
                   padding: 148px 36px 46px 39px;
                 "
               >
-                <p class="paragraph__card__lot">
+                <p class="lots__paragraph__card__lot">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
                   рассказывается о 16 июня 1904 года и об истории литературы,
@@ -249,10 +249,10 @@
                 width: 328px;
                 background-image: url(images/card-lot-03.jpg);
               "
-              class="card__lot"
+              class="lots__card__lot"
             >
               <div style="padding: 48px 34px 396px 40px">
-                <h2 class="title__card__lot">
+                <h2 class="lots__title__card__lot">
                   КАРТИНА, КОТОРУЮ ПОВТОРИТ ДАЖЕ 5-ЛЕТНИЙ СЫН МАМИНОЙ ПОДРУГИ
                 </h2>
               </div>
@@ -264,7 +264,7 @@
                   padding: 244px 34px 46px 40px;
                 "
               >
-                <p class="paragraph__card__lot">
+                <p class="lots__paragraph__card__lot">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
                   котиков… Сколько бы вы на такое поставили, если бы не знали,
@@ -318,10 +318,10 @@
           </div>
           <div style="display: block; width: 70%; float: right">
             <div style="padding: 97px 0 100px 70px">
-              <h3 class="title__about">ОБ АУКЦИОНЕ</h3>
+              <h3 class="about__title">ОБ АУКЦИОНЕ</h3>
             </div>
             <div style="padding: 0 0 0 70px">
-              <p class="text__about">
+              <p class="about__text">
                 Здесь вы не встретите очередное пафосное собрание невероятно
                 дорогого антиквариата. Наши лоты вообще не должны были попасть
                 ни на один аукцион. Потому что кому нужен дневник
@@ -330,7 +330,7 @@
               </p>
             </div>
             <div style="padding: 0 0 0 70px; margin: 30px 0 0 0">
-              <p class="text__about">
+              <p class="about__text">
                 Слишком сложные или, наоборот, слишком простые. Опережающие своё
                 время. В пух и прах растерзанные критиками. Непринятые и
                 непонятые. Когда-то они казались просто неудачными. Но, несмотря
@@ -355,17 +355,19 @@
           flex-direction: row;
         "
       >
-        <div style="width: 240px; margin-left: 0;">
+        <div style="width: 240px; margin-left: 0">
           <div style="text-decoration: underline" class="contacts">
-            +9 999 555 5555
+            <a href="tel:+99995555555">+9 999 555 5555</a>
           </div>
           <div style="text-decoration: underline" class="contacts">
-            info@sobaka.ge
+            <a href="mailo:info@sobaka.ge">info@sobaka.ge</a>
           </div>
           <div class="contacts">наб.Принсенграхт 263-265, <br />Амстердам</div>
         </div>
         <div style="width: 388px; text-align: center">
-          <div style="text-align: center" class="menu">главная</div>
+          <div style="text-align: center" class="menu">
+            <a style="text-decoration: none" href="#">главная</a>
+          </div>
           <div>
             <ul>
               <li
