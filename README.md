@@ -1,1 +1,1 @@
-# Ono tebe nado [Daniil](https://github.com/YusupovaVera/ono-tebe-nado)
+# [Ono tebe nado](https://github.com/YusupovaVera/ono-tebe-nado)
