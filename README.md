@@ -1,1 +1,3 @@
-# [Ono tebe nado](https://github.com/YusupovaVera/ono-tebe-nado)
+# Ono tebe nado
+
+[Ccылка на репозиторий](https://github.com/YusupovaVera/ono-tebe-nado)
