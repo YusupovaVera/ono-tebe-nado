@@ -27,14 +27,14 @@
   line-height: normal;
 }
 
-.contacts {
+/*.contacts {
   color: #000;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24.3px;
-}
+}*/
 
 .menu {
   color: #000;
@@ -114,4 +114,47 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.footer {
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  padding: 182px 21px 89px 58px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.footer__address {
+  width: 240px;
+  margin-left: 0;
+}
+
+.footer__menu {
+  width: 388px;
+  text-align: center;
+}
+
+.footer__menu__list {
+  width: 240px;
+  margin-left: 0;
+}
+
+.footer__menu__list__item {
+  list-style-type: none;
+  text-align: center;
+}
+
+.footer__menu__list__item__link {
+  text-decoration: none;
+}
+
+.footer__networks {
+  width: 237px;
+  margin-right: 0;
+  display: flex;
+}
+
+.footer__networks__items {
+  height: "48";
 }
