@@ -29,14 +29,15 @@
 
 .header {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: flex-start;
   padding: 92px 24px 92px 24px;
 }
 
 .header__menu {
   display: flex;
-  width: 388px;
+ padding-left: 34px;
+ font-size: 18px;
+ padding-top: 42px;
 }
 
 .header__menu-list {
@@ -59,8 +60,7 @@
 }
 
 .header__logo {
-  display: block;
-  width: 148px;
+  padding-left: 40px;
 }
 
 .header__logo-black {
@@ -68,6 +68,13 @@
 }
 
 .header__address {
+padding-left: 186px;
+font-style: normal;
+font-size: 18px;
+padding-top: 5px;
+}
+
+.header__address-tel {
   color: #000;
   font-family: Raleway;
   font-size: 18px;
@@ -76,14 +83,40 @@
   line-height: 24.3px;
 }
 
-.cover__title__main {
-  color: #fff;
+.header__address-mail {
+  color: #000;
   font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.3px;
+}
+.cover {
+  min-height: ;
+  padding: ;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 95% auto;
+}
+
+.cover__title {
+  width: 100%;
+  color: #fff;
+  font-family: Raleway, serif;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
-  width: 100%;
+  
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .button__main {
