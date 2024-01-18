@@ -141,9 +141,17 @@
 
 /* стили для 2 секции "lots"*/
 
+.lots {
+  height: 682px;
+  width: 1034px;
+  margin: 22px;
+  margin-top: 27px;
+
+}
+
 .lots__heading {
   width: 100%;
-  padding-left: 58px;
+  padding-left: 36px;
   padding-top: 177px;
   color: #000;
   font-family: Raleway, sans-serif;
@@ -167,6 +175,7 @@ text-decoration: none;
 }
 
 .card_type_film {
+  position: relative;
   background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -174,6 +183,7 @@ text-decoration: none;
 }
 
 .card_type_book {
+  position: relative;
   background-image: url(../images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -181,6 +191,7 @@ text-decoration: none;
 }
 
 .card_type_picture {
+  position: relative;
   background-image: url(../images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -209,6 +220,17 @@ text-decoration: none;
 }
 
 /* стили для 3 секции "about" */
+
+.about__column {
+  
+}
+
+.about__logo {
+  background-color: black;
+  border-radius: 50%;
+  width: 237px;
+  height: 237px;
+}
 
 .about__title {
   color: #000;
