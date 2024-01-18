@@ -21,7 +21,7 @@
 
 .header__menu-link {
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -49,7 +49,7 @@
 
 .header__address-tel {
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -58,7 +58,7 @@
 
 .header__address-mail {
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -87,7 +87,7 @@
   letter-spacing: 3px;
   width: 100%;
   color: #fff;
-  font-family: Raleway, serif;
+  font-family: Raleway, sans-serif;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
@@ -116,7 +116,7 @@
   white-space: pre;
   color: #fff;
   text-align: center;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -130,7 +130,7 @@
   color: #fff;
   background-color: rgba(0, 0, 0, 0);
   text-align: center;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -146,7 +146,7 @@
   padding-left: 58px;
   padding-top: 177px;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -177,7 +177,7 @@
 
 .card__title {
   color: #FFF;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -188,7 +188,7 @@
 
 .card__text {
   color: #FFF;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -199,7 +199,7 @@
 
 .about__title {
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -210,7 +210,7 @@
 .about__text {
   width: 693px;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
