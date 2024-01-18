@@ -3,7 +3,7 @@
 .header {
   display: flex;
   justify-content: flex-start;
-  padding: 92px 24px 92px 24px;
+  padding: 92px 24px 90px 24px;
 }
 
 .header__menu {
@@ -75,9 +75,7 @@
   position: relative;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
-  background-clip: content-box;
 }
 
 .cover__title {
@@ -111,7 +109,7 @@
 
 .cover__description-text {
   padding-left: 18px;
-  padding-top: 112px;
+  padding-top: 105px;
   padding-bottom: 30px;
   white-space: pre;
   color: #fff;
@@ -125,8 +123,11 @@
 }
 
 .bet-button {
-  padding-top: 80px;
-  padding-left: 96px;
+  margin-left: 66px;
+  margin-top: 119px;
+  margin-bottom: 46px;
+  width: 252px;
+  
   color: #fff;
   background-color: rgba(0, 0, 0, 0);
   text-align: center;
