@@ -146,7 +146,6 @@
   width: 1034px;
   margin: 22px;
   margin-top: 27px;
-
 }
 
 .lots__heading {
@@ -164,17 +163,21 @@
 
 .lots__card-list {
   list-style-type: none;
+  display: contents;
+  flex-wrap: wrap;
 }
 
 .lots__card-list-item {
-
 }
 
 .card-link {
-text-decoration: none;
+  text-decoration: none;
 }
 
 .card_type_film {
+  width: 328px;
+  height: 554px;
+  min-width: 328px;
   position: relative;
   background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
@@ -183,6 +186,9 @@ text-decoration: none;
 }
 
 .card_type_book {
+  width: 329px;
+  height: 554px;
+  min-width: 329px;
   position: relative;
   background-image: url(../images/card-lot-02.jpg);
   background-repeat: no-repeat;
@@ -191,6 +197,9 @@ text-decoration: none;
 }
 
 .card_type_picture {
+  width: 328px;
+  height: 554px;
+  min-height: 328px;
   position: relative;
   background-image: url(../images/card-lot-03.jpg);
   background-repeat: no-repeat;
@@ -199,19 +208,21 @@ text-decoration: none;
 }
 
 .card__title {
-  color: #FFF;
+  color: #fff;
   font-family: Raleway, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%; 
+  line-height: 120%;
   text-decoration-line: underline;
   text-transform: uppercase;
-
 }
 
 .card__text {
-  color: #FFF;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  color: #fff;
   font-family: Raleway, sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -219,10 +230,19 @@ text-decoration: none;
   line-height: 120%;
 }
 
+.lots__look-more-link {
+  padding-left: 38px;
+  color: #000;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 /* стили для 3 секции "about" */
 
 .about__column {
-  
 }
 
 .about__logo {
@@ -259,7 +279,7 @@ text-decoration: none;
   margin: auto;
   display: flex;
   padding: 182px 21px 89px 58px;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-direction: row;
 }
 
@@ -273,26 +293,30 @@ text-decoration: none;
   text-align: center;
 }
 
-.footer__menu__list {
+.footer__menu-list {
   width: 240px;
   margin-left: 0;
 }
 
-.footer__menu__list__item {
+.footer__menu-list-item {
   list-style-type: none;
   text-align: center;
 }
 
-.footer__menu__list__item__link {
+.footer__menu-link {
   text-decoration: none;
 }
 
-.footer__networks {
+.footer__menu-link_active .footer__memu-link {
+  text-decoration: none;
+}
+
+.footer__social-list {
   width: 237px;
   margin-right: 0;
   display: flex;
 }
 
-.footer__networks__items {
+.footer__social-link {
   height: "48";
 }
