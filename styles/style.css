@@ -127,7 +127,7 @@
   margin-top: 119px;
   margin-bottom: 46px;
   width: 252px;
-  
+
   color: #fff;
   background-color: rgba(0, 0, 0, 0);
   text-align: center;
@@ -141,9 +141,6 @@
 }
 
 /* стили для 2 секции "lots"*/
-
-.lots {
-}
 
 .lots__heading {
   padding-left: 60px;
@@ -249,14 +246,43 @@
 
 /* стили для 3 секции "about" */
 
+.about {
+  display: flex;
+  width: 1082px;
+  padding: 150px 0 0 67px;
+}
+
 .about__column {
+  display: flex;
+  width: 705px;
+  padding-bottom: 1px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 100px;
 }
 
 .about__logo {
   background-color: black;
   border-radius: 50%;
   width: 237px;
+  display: inline-flex;
   height: 237px;
+  width: 237px;
+  padding: 0px 45px 0px 70px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+  flex-shrink: 0;
+}
+.about__column-text {
+  padding-left: 70px;
+  padding-top: 96px;
 }
 
 .about__title {
@@ -271,6 +297,11 @@
 
 .about__text {
   width: 693px;
+  padding-top: 77px;
+}
+
+.about__text-item {
+  padding: 23px 0 0 0;
   color: #000;
   font-family: Raleway, sans-serif;
   font-size: 20px;
