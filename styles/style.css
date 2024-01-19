@@ -359,3 +359,9 @@
 .footer__social-link {
   height: "48";
 }
+
+.footer__sociak-icon {
+  width: 237px;
+  height: 48px;
+  flex-shrink: 0;
+}
