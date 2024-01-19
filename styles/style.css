@@ -379,14 +379,21 @@
 }
 
 .footer__social-list {
-  width: 143px;
+  width: 243px;
   margin-top: -4px;
   margin-left: 129px;
   display: flex;
+  justify-content: space-between;
+  padding-right: 5px;
+  list-style-type: none;
+}
+
+.footer__social-link-image {
+  width: 48px;
 }
 
 .footer__social-link {
-  height: "48";
+  height: 48px;
 }
 
 .footer__sociak-icon {
